@@ -11,7 +11,7 @@
   --bs-dark-primary: #1c1c1c;
   --bs-main-color: #fff;
   --bs-primary-color: #c6c6c6;
-  --secondary-color: #29a9fd;
+  --bs-secondary-color: #29a9fd;
   --bs-supporting-color: #c850c0;
 }
 
@@ -75,6 +75,12 @@ li {
 .bg-color {
   background-color: var(--bs-dark-primary);
 }
+
+/* apply in online-section digital model  */
+.common-section {
+  padding-bottom: 9rem;
+  padding-top: 3rem;
+}
 /* for hero section */
 .text-light-grey {
   color: var(--bs-primary-color);
@@ -131,6 +137,41 @@ li {
   padding: 6rem 0;
   overflow: hidden;
 }
-/* .img-section {
-  width: 100%;
-} */
+
+.business-section {
+  padding-top: 6rem;
+}
+
+/* online-section */
+
+/* carousel stylings */
+.carousel .card {
+  background-color: #262631;
+  color: var(--bs-main-color);
+  transition: all 0.3s linear;
+  /* transition: linear 0.3s all; */
+}
+.carousel-inner .card p {
+  color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover {
+  background-color: var(--bs-main-color);
+  color: black;
+}
+.carousel-inner .card:hover p {
+  color: var(--bs-dark-color);
+}
+/* slider kay neechay jo slide change karna wala h us ki class h ya */
+.carousel-indicators {
+  bottom: -60px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--bs-secondary-color);
+}
+
+.fa-star {
+  color: var(--bs-supporting-color);
+}
