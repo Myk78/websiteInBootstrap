@@ -113,6 +113,6 @@ li {
   background-color: var(--secondary-color);
   color: var(--bs-main-color);
 }
-.card-box {
-  box-shadow: ;
+.card-box:hover {
+  box-shadow: 0 8px 24px gray;
 }
