@@ -120,6 +120,7 @@ li {
   color: var(--bs-main-color);
 }
 .card-box:hover {
+  transition: all 0.3s linear;
   box-shadow: 0 8px 24px gray;
 }
 
@@ -174,4 +175,30 @@ li {
 
 .fa-star {
   color: var(--bs-supporting-color);
+}
+/* .card-body {
+  color: var(--bs-);
+} */
+.card {
+  background-color: #262631;
+}
+.card p {
+  color: var(--bs-main-color);
+}
+.card:hover p {
+  color: var(--bs-dark-color);
+}
+
+.card h5 {
+  color: white;
+}
+.card .card-title:hover {
+  color: var(--bs-dark-color);
+}
+
+.card:hover {
+  background-color: var(--bs-main-color);
+  color: black;
+  transition: all 0.6s linear;
+  box-shadow: 0 8px 24px gray;
 }
